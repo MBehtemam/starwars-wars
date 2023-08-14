@@ -36,3 +36,5 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+      - name: Run Test
+        run: pnpm test
